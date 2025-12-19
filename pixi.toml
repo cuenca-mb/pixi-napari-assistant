@@ -1,0 +1,32 @@
+[workspace]
+
+name = "napari-assistant"
+channels = ["conda-forge"]
+platforms = ["win-64", "osx-arm64"]
+
+[dependencies]
+python = "3.10.*"
+
+napari = "0.6.*"
+napari-assistant = "0.6.*"
+
+# scikit-image processing
+scikit-image = "*"
+numpy = "*"
+scipy = "*"
+
+# assistant-compatible segmentation tools
+napari-segment-blobs-and-things-with-membranes = "*"
+
+# regionprops (measurement)
+napari-skimage-regionprops = "*"
+
+# GUI backend
+pyqt = "*"
+qtpy = "*"
+magicgui = "*"
+
+[tasks]
+assistant = "naparia"
+napari = "python -m napari"
+reset = "napari --reset"
