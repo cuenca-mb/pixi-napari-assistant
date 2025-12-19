@@ -5,12 +5,9 @@ Created 19.12.2025 for LSM Image Analysis course, Universidad Mayor, Chile.
 
 
 Install pixi https://pixi.sh/latest/
-Create a Pixi folder and run a terminal there.
-Run `pixi init napari-assistant`
-`cd napari-assistant`
 
-Replace the empty toml file in that directory with the toml file in this repository?
+Download the folder of this repo and its contents in your local storage. Start a terminal from the folder and run
+`pixi install`
 
-Run `pixi install`
-
-Run `pixi run assistant`
+Start napari by running
+`pixi run assistant`
