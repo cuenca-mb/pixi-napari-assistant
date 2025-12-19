@@ -11,3 +11,5 @@ Download the folder of this repo and its contents in your local storage. Start a
 
 Start napari by running
 `pixi run assistant`
+
+Sample data is `MAX_Lund.tif` in https://zenodo.org/records/17986091
