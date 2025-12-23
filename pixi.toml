@@ -30,4 +30,8 @@ magicgui = "*"
 assistant = "naparia"
 napari = "python -m napari"
 reset = "napari --reset"
-download-data = "curl -L https://zenodo.org/records/17986091/files/MAX_Lund.tif --output data/MAX_Lund.tif --create-dirs"
+download-data = mkdir -p data &&
+curl -L https://zenodo.org/records/17986091/files-archive \
+  --output data/Lund.zip &&
+unzip -o data/Drosophila-CP.zip -d data
+"""
