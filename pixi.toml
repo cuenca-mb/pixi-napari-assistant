@@ -32,7 +32,7 @@ napari = "python -m napari"
 reset = "napari --reset"
 download-data = """
 mkdir -p data &&
-curl -L https://zenodo.org/records/17986091/files-archive \
+curl -L https://zenodo.org/api/17986091/files-archive \
   --output data/Lund.zip &&
 unzip -o data/Lund.zip -d data
 """
