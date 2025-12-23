@@ -34,5 +34,5 @@ download-data = """
 mkdir -p data &&
 curl -L https://zenodo.org/records/17986091/files-archive \
   --output data/Lund.zip &&
-unzip -o data/Drosophila-CP.zip -d data
+unzip -o data/Lund.zip -d data
 """
